@@ -9,13 +9,7 @@ import 'firebase/database';    // for realtime database
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBagAgznDL4mVAW5Jf7bRux9eSqLKlICPM",
-    authDomain: "phonic-realm-300212.firebaseapp.com",
-    projectId: "phonic-realm-300212",
-    storageBucket: "phonic-realm-300212.appspot.com",
-    messagingSenderId: "421262088545",
-    appId: "1:421262088545:web:51a5f31016635bd1960d20",
-    measurementId: "G-J4J9HE5SXQ"
+   // config keys
 }
 const firebaseApp = firebase.initializeApp(firebaseConfig)
 const db = firebaseApp.firestore();
